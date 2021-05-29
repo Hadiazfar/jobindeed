@@ -1,0 +1,7 @@
+.mainbutton:hover {
+  outline: none;
+}
+.mainbutton {
+  outline: none;
+  color: green !important;
+}

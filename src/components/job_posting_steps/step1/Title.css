@@ -1,0 +1,30 @@
+@media screen and (max-width: 996px) {
+  .Title {
+    display: none;
+  }
+}
+@media screen and (min-width: 996px) {
+  .Title1 {
+    display: none;
+  }
+  .Footer {
+    display: none;
+  }
+}
+.titerror {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-right: 65%;
+  background-color: rgb(255, 193, 193);
+  text-align: left;
+  width: 390px;
+}
+.error1 {
+  color: rgb(191, 43, 43);
+  font-size: 15px;
+  margin-left: 2%;
+  margin-right: 10%;
+  background-color: rgb(255, 193, 193);
+  text-align: left;
+ 
+}

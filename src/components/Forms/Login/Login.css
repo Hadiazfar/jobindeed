@@ -1,0 +1,53 @@
+.em:hover {
+  border: none;
+}
+.em:active {
+  border: none;
+}
+.em1 {
+  width: 75%;
+  border: 1px solid rgb(202, 202, 202);
+  background-color: white;
+  cursor: pointer;
+}
+.b {
+  margin-top: 71px;
+}
+.em1:focus {
+  border: 2px solid rgb(15, 119, 192);
+}
+.em1:hover {
+  border: 2px solid rgb(15, 119, 192);
+}
+.em1:active {
+  border: 2px solid rgb(15, 119, 192);
+}
+
+@media screen and (max-width: 592px) {
+  .as {
+    display: none;
+  }
+}
+@media screen and (min-width: 592px) {
+  .as1 {
+    display: none;
+  }
+}
+.PersonIcon {
+  color: rgb(202, 202, 202);
+}
+.loginerror {
+  color: rgb(211, 26, 26);
+  font-size: 17px;
+  margin-left: -170%;
+  background-color: rgb(255, 193, 193);
+  width: 290px;
+  text-align: left;
+}
+.loginerrorMob {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -1%;
+  background-color: rgb(255, 193, 193);
+  text-align: left;
+}

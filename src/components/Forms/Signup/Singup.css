@@ -1,0 +1,71 @@
+.mytext {
+  margin-right: 120px !important;
+  margin-top: 10px !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px !important;
+  color: #00cde9 !important;
+}
+.text2 {
+  color: #0085df !important;
+  text-decoration: none !important;
+}
+.text2:hover {
+  opacity: 0.5;
+  text-decoration: underline !important;
+}
+.emailbutton {
+  background-color: #0085df !important;
+}
+.emailbutton:hover {
+  background-color: #00cde9 !important;
+}
+.mytext3 {
+  font-size: 14px !important;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+.mytext3:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.mytext4 {
+  font-size: 23px !important;
+  font-weight: bolder;
+  color: black;
+}
+
+.mytext5 {
+  font-size: 20px !important;
+  font-weight: bolder;
+  color: black;
+}
+.MailOutlineIcon {
+  color: rgb(202, 202, 202);
+}
+@media screen and (max-width: 592px) {
+  .Singup {
+    display: none;
+  }
+}
+@media screen and (min-width: 592px) {
+  .Singup1 {
+    display: none;
+  }
+}
+.signuperror {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -1%;
+  background-color: rgb(255, 193, 193);
+  width: 290px;
+  text-align: left;
+}
+.signuperrorMob {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: 0%;
+  background-color: rgb(255, 193, 193);
+  text-align: left;
+}

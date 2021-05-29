@@ -1,0 +1,13 @@
+@media screen and (max-width: 996px) {
+  .Review {
+    display: none;
+  }
+}
+@media screen and (min-width: 996px) {
+  .Review1 {
+    display: none;
+  }
+}
+.EditIcon{
+  color: rgb(122, 120, 120);
+  }

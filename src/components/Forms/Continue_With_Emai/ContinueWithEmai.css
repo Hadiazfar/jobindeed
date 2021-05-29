@@ -1,0 +1,235 @@
+.em:hover {
+  border: none;
+}
+.em:active {
+  border: none;
+}
+
+.em1 {
+  width: 75%;
+  border: 1px solid rgb(202, 202, 202);
+  background-color: white;
+  cursor: pointer;
+}
+.em1:focus {
+  border: 2px solid rgb(15, 119, 192);
+}
+.em1:hover {
+  border: 2px solid rgb(15, 119, 192);
+}
+.em1:active {
+  border: 2px solid rgb(15, 119, 192);
+}
+.em:focus {
+  border: none;
+}
+
+.em3 {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.em3:focus {
+  border: 2px solid rgb(15, 119, 192);
+}
+.em3:hover {
+  border: 2px solid rgb(15, 119, 192);
+}
+.em3:active {
+  border: 2px solid rgb(15, 119, 192);
+}
+.f {
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(220, 218, 218);
+}
+.f:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.f:active {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.f:focus {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 592px) {
+  .ContinueWithEmai {
+    display: none;
+  }
+}
+@media screen and (min-width: 592px) {
+  .ContinueWithEmai1 {
+    display: none;
+  }
+}
+
+body {
+  outline: none !important;
+}
+
+.nav1 {
+  background-color: white !important;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24) !important;
+}
+.logo {
+  width: 120px !important;
+}
+
+.mytext {
+  margin-right: 120px !important;
+  margin-top: 10px !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px !important;
+  color: #00cde9 !important;
+}
+.text2 {
+  color: #0085df !important;
+  text-decoration: none !important;
+}
+.text2:hover {
+  opacity: 0.5;
+  text-decoration: underline !important;
+}
+.emailbutton {
+  background-color: #0085df !important;
+}
+.emailbutton:hover {
+  background-color: #00cde9 !important;
+}
+.mytext3 {
+  font-size: 14px !important;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+.mytext3:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.mytext4 {
+  font-size: 23px !important;
+  font-weight: bolder;
+  color: black;
+}
+
+.mytext5 {
+  font-size: 20px !important;
+  font-weight: bolder;
+  color: black;
+}
+
+@media screen and (min-width: 991px) {
+  .logo {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .logo {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mycontainer {
+    width: 100% !important;
+  }
+}
+
+.h03 {
+  border-radius: 100%;
+  border: none;
+  border-radius: none;
+  background-color: rgb(247, 243, 243);
+}
+.h03:hover {
+  background-color: rgb(247, 243, 243);
+  border-radius: 100%;
+  border: none;
+}
+.h03:focus {
+  background-color: rgb(247, 243, 243);
+  border-radius: 100%;
+  border: none;
+}
+
+.sc {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(15, 119, 192);
+  font-size: 19px;
+  font-weight: 600;
+}
+.sc:hover {
+  text-decoration: none;
+  background-color: rgb(218, 218, 218);
+  color: rgb(15, 119, 192);
+}
+.sc:active {
+  text-decoration: none;
+  background-color: rgb(218, 218, 218);
+  color: rgb(15, 119, 192);
+}
+.sc:focus {
+  text-decoration: none;
+  background-color: rgb(218, 218, 218);
+  color: rgb(15, 119, 192);
+}
+
+.btq {
+  outline: none;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(145, 161, 166);
+  font-size: 18px;
+  font-weight: 700;
+}
+.btq:hover {
+  text-decoration: none;
+  background-color: rgb(0, 205, 233);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.error {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -0%;
+}
+.firsnameterror {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -450%;
+  background-color: rgb(255, 193, 193);
+  width: 165px;
+  text-align: left;
+}
+.lastNameerror {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -20%;
+  background-color: rgb(255, 193, 193);
+  width: 165px;
+  text-align: left;
+}
+
+.Errorpassworderror {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -4%;
+  background-color: rgb(255, 193, 193);
+  width: 350px;
+  text-align: left;
+}
+.Emaierrormob {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -3%;
+  background-color: rgb(255, 193, 193);
+  text-align: left;
+}

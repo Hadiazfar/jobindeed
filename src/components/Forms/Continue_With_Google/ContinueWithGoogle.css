@@ -1,0 +1,54 @@
+.b {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 592px) {
+  .ContinueWitGoogle {
+    display: none;
+  }
+}
+@media screen and (min-width: 592px) {
+  .ContinueWitGoogle1 {
+    display: none;
+  }
+}
+
+.btq {
+  outline: none;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(145, 161, 166);
+  font-size: 18px;
+  font-weight: 700;
+}
+.btq:hover {
+  text-decoration: none;
+  background-color: rgb(0, 205, 233);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.btq:active {
+  text-decoration: none;
+  background-color: rgb(0, 205, 233);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.btq:focus {
+  text-decoration: none;
+  background-color: rgb(0, 205, 233);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.boxerror {
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: -20%;
+}
+.boxerrormob{
+  color: rgb(191, 43, 43);
+  font-size: 17px;
+  margin-left: 0%;
+}

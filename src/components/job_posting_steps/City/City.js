@@ -6,12 +6,11 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import StarsIcon from "@material-ui/icons/Stars";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import CheckIcon from "@material-ui/icons/Check";
-import CheckCircleIcon from "@material-ui/icons/CheckCircle";
-import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
-function City() {
+
+function City(props) {
   return (
     <div className="col-3">
-      <div className="row" style={{ borderLeft: "3px solid #0d6efd" }}>
+      <div className="row" style={{  }}>
         <div className="col-3">
           <EditIcon style={{ height: "22px" }} />
         </div>
@@ -19,7 +18,7 @@ function City() {
           <p style={{ fontSize: 14, fontWeight: 600 }}>Title</p>{" "}
         </div>
         <div className="col-3">
-          <CheckCircleIcon style={{ height: "18px" }} />
+          {props.Title}
         </div>
       </div>
       <br />
@@ -33,7 +32,7 @@ function City() {
           </p>{" "}
         </div>
         <div className="col-3">
-          <CheckCircleOutlineIcon style={{ height: "18px" }} />
+        {props.DescriptionIcon}
         </div>
       </div>
       <br />
@@ -47,7 +46,7 @@ function City() {
           </p>{" "}
         </div>
         <div className="col-3">
-          <CheckCircleOutlineIcon style={{ height: "18px" }} />
+        {props.ExpertiseIcon}
         </div>
       </div>
       <br />
@@ -59,7 +58,7 @@ function City() {
           <p style={{ fontSize: 14, fontWeight: 600, color: "gray" }}>Budget</p>{" "}
         </div>
         <div className="col-3">
-          <CheckCircleOutlineIcon style={{ height: "18px" }} />
+          {props.Budget}
         </div>
       </div>
       <br />
@@ -71,7 +70,7 @@ function City() {
           <p style={{ fontSize: 14, fontWeight: 600, color: "gray" }}>Review</p>{" "}
         </div>
         <div className="col-3">
-          <CheckCircleOutlineIcon style={{ height: "18px" }} />
+          {props.Review}
         </div>
       </div>
     </div>

@@ -1,0 +1,74 @@
+body {
+    outline: none !important;
+  }
+  
+  .nav1 {
+    background-color: #174964 !important;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24) !important;
+  }
+  .logo {
+    width: 120px !important;
+  }
+  
+  .mytext {
+    margin-right: 120px !important;
+    margin-top: 10px !important;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px !important;
+    color: #00cde9 !important;
+  }
+  .text2 {
+    color: #0085df !important;
+    text-decoration: none !important;
+  }
+  .text2:hover {
+    opacity: 0.5;
+    text-decoration: underline !important;
+  }
+  .emailbutton {
+    background-color: #0085df !important;
+  }
+  .emailbutton:hover {
+    background-color: #00cde9 !important;
+  }
+  .mytext3 {
+    font-size: 14px !important;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+  }
+  .mytext3:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .mytext4 {
+    font-size: 23px !important;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .mytext5 {
+    font-size: 20px !important;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  @media screen and (min-width: 991px) {
+    .logo {
+      margin-left: 120px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .logo {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .mycontainer {
+      width: 100% !important;
+    }
+  }
+  

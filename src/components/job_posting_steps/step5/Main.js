@@ -4,6 +4,8 @@ import City from "../City/City";
 import "./Review.css";
 import EditIcon from "@material-ui/icons/Edit";
 import { Link } from "react-router-dom";
+import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 function Main() {
   return (
     <div>
@@ -14,7 +16,14 @@ function Main() {
         >
           <div className="container pt-5" style={{ zIndex: 6 }}>
             <div className="row">
-              <City />
+              <City
+               Title= {<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px', }}/>}
+               DescriptionIcon= {<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px', }}/>}
+               ExpertiseIcon ={<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px', }}/>}
+               Budget ={<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px',}}/>}
+               Review = {<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px', }}/>}
+              
+              />
               <div className="col-9">
                 <div
                   className="container "

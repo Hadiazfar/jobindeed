@@ -4,6 +4,8 @@ import City from "../City/City";
 import "./Expertise.css";
 import SearchIcon from "@material-ui/icons/Search";
 import Button from "../../job_posting_steps/Button/Button";
+import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 function Main() {
   return (
     <div className="Expertise">
@@ -13,7 +15,14 @@ function Main() {
       >
         <div className="container pt-5" style={{ zIndex: 6 }}>
           <div className="row">
-            <City />
+            <City 
+             Title= {<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px', }}/>}
+             DescriptionIcon= {<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px', }}/>}
+             ExpertiseIcon ={<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px',}}/>}
+             Budget ={<CheckCircleOutlineIcon style={{fontSize: '20px',}}/>}
+             Review = {< CheckCircleOutlineIcon style={{fontSize: '20px',}}/>}
+             />
+           
             <div className="col-9">
               <div
                 className="container "

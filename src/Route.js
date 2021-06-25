@@ -10,6 +10,8 @@ import ContinueWithEmai from "../src/components/Forms/Continue_With_Emai/Continu
 import ContinueWitGoogle from "../src/components/Forms/Continue_With_Google/ContinueWitGoogle";
 import Signup from "../src/components/Forms/Signup/Singup";
 import Password from "../src/components/Forms/Password/Password";
+import GetStarted from "../src/components/Applicant/CV/Get Started/GetStarted"
+import Guide from "./components/Applicant/CV/Guidenes/Guide";
 
 
 function RouteConfig() {
@@ -27,6 +29,8 @@ function RouteConfig() {
             <Route path="/Expertise" component={Expertise} />
             <Route path="/Budget" component={Budget} />
             <Route path="/Review" component={Review} />
+            <Route path="/GetStarted" component={GetStarted} />
+            <Route path="/Guide" component={Guide} />
           </Switch>
         </Router>
       </div>

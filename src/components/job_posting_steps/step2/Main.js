@@ -6,6 +6,8 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import ErrorIcon from "@material-ui/icons/Error";
 import Button from "../../job_posting_steps/Button/Button";
+import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 function Main() {
   var [usesubmit, setsubmit] = useState(false);
   const formik = useFormik({
@@ -31,7 +33,14 @@ function Main() {
         >
           <div className="container pt-5" style={{ zIndex: 6 }}>
             <div className="row">
-              <City />
+              <City 
+              
+              Title= {<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px',}}/>}
+              DescriptionIcon= {<CheckCircleIcon  style={{ color: '#174964', fontSize: '20px',}}/>}
+              ExpertiseIcon ={<CheckCircleOutlineIcon style={{  fontSize: '20px',}}/>}
+              Budget ={<CheckCircleOutlineIcon style={{  fontSize: '20px',}}/>}
+              Review = {< CheckCircleOutlineIcon style={{  fontSize: '20px',}}/>}
+              />
 
               <div className="col-9">
                 <div
@@ -79,16 +88,18 @@ function Main() {
                           borderRadius: 12,
                           border: "2px solid grey",
                           width: "96%",
+                        
                         }}
                       >
                         <textarea
-                          style={{ borderRadius: 12, border: "none" }}
+                          style={{ borderRadius: 12, border: "none",  }}
                           className="form-control"
                           aria-label="With textarea"
                           defaultValue={""}
                           id="firstName"
                           value={formik.values.firstName}
                           onChange={formik.handleChange}
+                         
                         />
                       </div>
                     </div>

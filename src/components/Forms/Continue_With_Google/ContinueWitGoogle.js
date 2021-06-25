@@ -5,6 +5,7 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../../Footer/Footer";
 
 function ContinueWitGoogle() {
+  console.log("HADI");
   return (
     <div>
       <Navbar

@@ -122,7 +122,7 @@ function Main() {
                   <br />
                   <label>
                     <div className="row pb-1 pt-1" style={{ borderRadius: 4 }}>
-                      <div className="col  pl-0 pl-4 pr-0 pb-2 pt-2">
+                      <div className="col-0  pl-0 pl-4 pr-0 pb-2 pt-2">
                         {" "}
                         <input
                           style={{ width: 19, height: 19, cursor: "pointer" }}
@@ -158,9 +158,8 @@ function Main() {
                           onChange={formik.handleChange}
                         />
                         <a style={{ fontSize: 18, fontWeight: 600 }}>
-                          &nbsp;Yes, I understand and agree to the Jobindeed
-                          terms of Service, including the User Agreement and
-                          Privacy Policy.
+                        &nbsp;Yes! Send me genuinely useful emails every now
+                          and then to help me get the most out of Jobindeed.
                         </a>{" "}
                         {formik.errors.box && usesubmit ? (
                           <div className="boxerror">

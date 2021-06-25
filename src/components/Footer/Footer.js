@@ -7,6 +7,10 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 function Footer() {
   return (
+<div>
+  <div className="container-fluid p" style={{backgroundColor: "rgb(243, 247, 247)", zIndex: 11, height: '71vh'}}> </div>
+  <div className="container-fluid q" style={{backgroundColor: "rgb(243, 247, 247)", zIndex: 11, height: '1.5vh'}} > </div>
+
     <div>
       <footer className="footer">
         <div className="container">
@@ -74,9 +78,12 @@ function Footer() {
               </div>
             </div>
           </div>
-        </div>
+          </div>
       </footer>
     </div>
+    </div>
+   
+   
   );
 }
 

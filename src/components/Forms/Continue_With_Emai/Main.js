@@ -87,7 +87,7 @@ function Main() {
                             margin: "auto",
                           }}
                         >
-                          <PersonIcon />
+                          <PersonIcon className="PersonIcon" />
                         </div>
                         <div
                           className="col-10"
@@ -139,7 +139,7 @@ function Main() {
                             margin: "auto",
                           }}
                         >
-                          <PersonIcon />
+                          <PersonIcon className="PersonIcon" />
                         </div>
                         <div
                           className="col-10"
@@ -183,7 +183,7 @@ function Main() {
                     >
                       <div className="col-2 pl-1 pb-2 pt-1">
                         {" "}
-                        <LockIcon />
+                        <LockIcon className="PersonIcon"  />
                       </div>
                       <div className="col-10 p-0">
                         <input
@@ -288,13 +288,13 @@ function Main() {
                       <div className="col  pl-0 pl-4 pr-0 pb-2 pt-2">
                         {" "}
                         <input
-                          style={{ width: 19, height: 19, cursor: "pointer" }}
+                          style={{ width: 19, height: 17, cursor: "pointer" }}
                           type="checkbox"
                           id="box"
                           value={formik.values.box}
                           onChange={formik.handleChange}
                         />
-                        <a style={{ fontSize: 18, fontWeight: 600 }}>
+                        <a style={{ fontSize: 15, fontWeight: 600 }}>
                           &nbsp;Yes! Send me genuinely useful emails every now
                           and then to help me get the most out of Jobindeed.
                         </a>{" "}
@@ -314,16 +314,15 @@ function Main() {
                       <div className="col  pl-0 pl-4 pr-0 pb-2 pt-2">
                         {" "}
                         <input
-                          style={{ width: 19, height: 19, cursor: "pointer" }}
+                          style={{ width: 19, height: 17, cursor: "pointer" }}
                           type="checkbox"
                           id="terms"
-                          value={formik.values.terms}
+                          value={formik.values.box}
                           onChange={formik.handleChange}
                         />
-                        <a style={{ fontSize: 18, fontWeight: 600 }}>
-                          &nbsp;Yes, I understand and agree to the Jobindeed
-                          Terms of Service, including the User Agreement and
-                          Privacy Policy.
+                        <a style={{ fontSize: 15, fontWeight: 600 }}>
+                          &nbsp;Yes! Send me genuinely useful emails every now
+                          and then to help me get the most out of Jobindeed.
                         </a>{" "}
                         {formik.errors.terms && usesubmit ? (
                           <div className="boxerror">

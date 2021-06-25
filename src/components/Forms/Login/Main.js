@@ -65,6 +65,7 @@ function Main() {
                             height: "100%",
                             border: "none",
                             outline: "none",
+                            backgroundColor: "white",
                           }}
                           type="email"
                           id="email"

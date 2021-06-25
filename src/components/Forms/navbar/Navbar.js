@@ -21,14 +21,12 @@ function Navbar(props) {
           <img src="images/logo.svg" className="logo" />
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item"></li>
-              <li className="nav-item"></li>
-              <li className="nav-item"></li>
+             
             </ul>
 
             <form className="d-flex">
               <p className="mytext">
-                {props.name}
+              {props.hadi}{props.name}
                 <Link to={props.location} className="text2">
                   {" "}
                   {props.etet}

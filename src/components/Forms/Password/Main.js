@@ -42,7 +42,7 @@ function Main() {
                   <div className="col pt-4 pl-4 pr-4 pb-2">
                     <p style={{ fontSize: 28, fontWeight: 600 }}>Welcome </p>
 
-                    <p style={{ fontSize: 20, fontWeight: 600 }}>
+                    <p style={{ fontSize: 20, fontWeight: 500, color:"grey" }}>
                       Hadiazfar20@gmail.com
                     </p>
                   </div>

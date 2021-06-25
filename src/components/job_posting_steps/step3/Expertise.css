@@ -1,9 +1,9 @@
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 991px) {
   .Expertise {
     display: none;
   }
 }
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 991px) {
   .Expertise1 {
     display: none;
   }

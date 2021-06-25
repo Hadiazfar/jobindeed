@@ -1,13 +1,10 @@
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 991px) {
   .Title {
     display: none;
   }
 }
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 991px) {
   .Title1 {
-    display: none;
-  }
-  .Footer {
     display: none;
   }
 }

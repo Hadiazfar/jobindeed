@@ -1,12 +1,13 @@
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 991px) {
   .Description {
     display: none;
   }
 }
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 991px) {
   .Description1 {
     display: none;
   }
+  
 }
 .descriptionerror {
   color: rgb(191, 43, 43);

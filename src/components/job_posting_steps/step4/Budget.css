@@ -101,12 +101,12 @@
   color: #0d6efd;
   outline: none !important;
 }
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 991px) {
   .Budget {
     display: none;
   }
 }
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 991px) {
   .Budget1 {
     display: none;
   }

@@ -12,7 +12,7 @@ import Signup from "../src/components/Forms/Signup/Singup";
 import Password from "../src/components/Forms/Password/Password";
 import GetStarted from "../src/components/Applicant/CV/Get Started/GetStarted"
 import Guide from "./components/Applicant/CV/Guidenes/Guide";
-
+import Category from './components/Applicant/CV/Category/Category'
 
 function RouteConfig() {
     return (
@@ -31,6 +31,7 @@ function RouteConfig() {
             <Route path="/Review" component={Review} />
             <Route path="/GetStarted" component={GetStarted} />
             <Route path="/Guide" component={Guide} />
+            <Route path="/Category" component={Category} />
           </Switch>
         </Router>
       </div>

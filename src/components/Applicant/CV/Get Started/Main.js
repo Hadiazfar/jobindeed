@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Main(){
     return(
 <div className="GetStarted">
-  <div className="container-fluid b" style={{backgroundColor: '#f1f2f4', zIndex: 5}}>
+  <div className="container-fluid b" style={{backgroundColor: 'rgb(243, 247, 247)', zIndex: 5}}>
     <div className="container " style={{zIndex: 6}}>
       <div className="row">
         <div className="col-3 offset-1 pt-4 " >
@@ -61,8 +61,10 @@ function Main(){
         </div>
       </div>
     </div>
-    <br />
-    <br />    <br />    <br />    <br />
+   <br />
+   <br />
+   <br />
+
   </div>
 </div>
      

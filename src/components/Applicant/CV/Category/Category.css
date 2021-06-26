@@ -1,6 +1,7 @@
 .body{
     background-color: rgb(243, 247, 247);
-}
+} 
+
 .but{
     background-color: white; 
      width: 33%;
@@ -44,18 +45,16 @@
         }
 
         @media screen and (max-width:862px){
-            .GetStarted{
+            .Category{
                 display: none;
                
                 
             }
-            .c009{
-                display: none;
-            }
+
            
             }
             @media screen and (min-width:862px){
-                .GetStarted1{
+                .Category1{
                     display: none;
                    
                     
@@ -80,7 +79,4 @@
                         
                         }
 
-
-
-
-
+                

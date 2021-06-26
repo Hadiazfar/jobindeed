@@ -6,7 +6,7 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light  nav1">
+      <nav className="navbar navbar-expand-lg navbar-light  nav10">
         <div className="container-fluid ">
           <button
             className="navbar-toggler"

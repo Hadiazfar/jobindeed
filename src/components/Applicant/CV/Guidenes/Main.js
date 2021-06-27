@@ -2,9 +2,9 @@ import "../../../../../node_modules//bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./Guide.css"
 import SidePanel from "../Sidepanel/SidePanel";
-import StarsIcon from '@material-ui/icons/Stars';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import { Link } from "react-router-dom";
 
 function Main (){
     return (
@@ -52,7 +52,7 @@ function Main (){
             <div className="row">
               <div className="col-5 offset-7 pt-0 pl-4 pr-4 pb-3">
                 
-                <button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Continue</button>
+              <Link to = '/Category'> <button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Continue</button></Link>
               </div>
             </div>
           </div>

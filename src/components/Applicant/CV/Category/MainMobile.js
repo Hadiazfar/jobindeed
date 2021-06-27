@@ -57,10 +57,10 @@ function MainMobile(){
         </div>
         <div className="row pt-4" style={{borderTop: '3px solid rgb(165, 165, 165)'}}>
           <div className="col-5  pl-4 pr-4 pb-3">
-            <button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Back</button>
+          <Link to = '/Guide'><button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Back</button></Link>
           </div>
           <div className="col-5 offset-2 pt-0 pl-4 pr-4 pb-3">
-            <button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Next</button>
+          <Link to = '/Expertisecv'><button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Next</button></Link>
           </div>
         </div>
       </div>

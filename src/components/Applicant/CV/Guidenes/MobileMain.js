@@ -1,6 +1,7 @@
 import "../../../../../node_modules//bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./Guide.css"
+import { Link } from "react-router-dom";
 function MainMobile(){
     return(
 
@@ -27,7 +28,7 @@ function MainMobile(){
           </div>
           <div className="row">
             <div className="col pt-0 pl-4 pr-4 pb-3">
-              <button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Continue</button>
+            <Link to = '/Category'>  <button className="p-2 but" style={{outline: 'none', width: '90%', borderRadius: 20}}>Continue</button> </Link>
             </div>
           </div>
         </div>

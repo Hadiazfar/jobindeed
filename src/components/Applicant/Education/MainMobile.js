@@ -36,7 +36,7 @@ function MainMobile(){
             >
               <div
                 className="row"
-                style={{ borderBottom: "2px solid rgb(165, 165, 165)" }}
+                style={{ borderBottom: "1px solid rgb(165, 165, 165)" }}
               >
                 <div className="col pt-4 pl-4 pr-4 pb-2">
                   <a style={{ fontSize: 25, fontWeight: 700 }}>Education</a>
@@ -293,7 +293,7 @@ function MainMobile(){
     }}
       className="p-2 but"
       id="bton2"
-      style={{ outline: "none", width: "80%", borderRadius: 20,border: "1px solid rgb(212, 211, 211)" }}
+      style={{ outline: "none", width: "75%", borderRadius: 20,border: "1px solid rgb(212, 211, 211)" }}
     >
       Save
     </button>
@@ -307,7 +307,7 @@ function MainMobile(){
         {setbox1(false)
         setbox(false)
         }}
-      style={{ outline: "none", width: "80%", borderRadius: 20,border: "1px solid rgb(212, 211, 211)" }}
+      style={{ outline: "none", width: "75%", borderRadius: 20,border: "1px solid rgb(212, 211, 211)" }}
     >
       Cancel
     </button>

@@ -61,12 +61,6 @@ function SidePanel(props){
   </div>
  <br />
   <div className="row">
-    <div className="col-2"><TimerIcon style={{fontSize: 22, padding: 2, color: 'gray'}} /></div>
-    <div className="col-7"><a style={{fontSize: 13, fontWeight: 700, color: 'gray'}}>Hourly Rate</a> </div>
-    <div className="col-2">{props.TimerIcon} </div>
-  </div>
- <br />
-  <div className="row">
     <div className="col-2"><PersonIcon style={{fontSize: 22, padding: 2, color: 'gray'}} /></div>
     <div className="col-7"><a style={{fontSize: 13, fontWeight: 700, color: 'gray'}}>Title &amp; Overview</a> </div>
     <div className="col-2">{props.PersonIcon}</div>

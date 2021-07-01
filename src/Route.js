@@ -14,8 +14,8 @@ import GetStarted from "../src/components/Applicant/CV/Get Started/GetStarted"
 import Guide from "./components/Applicant/CV/Guidenes/Guide";
 import Category from './components/Applicant/CV/Category/Category'
 import Expertisecv from "./components/Applicant/CV/Expertise/Expertisecv";
-import Main from './components/Applicant/CV/Expertise Level/Main'
 import ExpertiseLevel from "./components/Applicant/CV/Expertise Level/ExpertiseLevel";
+import Education from "./components/Applicant/Education/Education";
 function RouteConfig() {
     return (
       <div>
@@ -36,6 +36,7 @@ function RouteConfig() {
             <Route path="/Category" component={Category} />
             <Route path="/Expertisecv" component={Expertisecv} />
             <Route path="/ExpertiseLevel" component={ExpertiseLevel} />
+            <Route path="/Education" component={Education} />
           </Switch>
         </Router>
       </div>

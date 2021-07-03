@@ -1,4 +1,4 @@
-import "../../../../../node_modules//bootstrap/dist/css/bootstrap.min.css";
+import "../../../../node_modules//bootstrap/dist/css/bootstrap.min.css";
 import React, {useState} from "react";
 import "./Education.css"
 import SidePanel from "../CV/Sidepanel/SidePanel";

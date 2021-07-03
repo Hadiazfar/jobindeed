@@ -19,6 +19,8 @@ import Education from "./components/Applicant/Education/Education";
 import Employment from "./components/Applicant/CV/Empoyment/Employment"
 import Language from "./components/Applicant/CV/Language/Language"
 import Titlecv from "./components/Applicant/CV/Title/Titlecv"
+import Location from "./components/Applicant/CV/Location/Location"
+import Phone from './components/Applicant/CV/Phone/Phone'
 function RouteConfig() {
     return (
       <div>
@@ -43,6 +45,8 @@ function RouteConfig() {
             <Route path="/Employment" component={Employment} />
             <Route path="/Language" component={Language} />
             <Route path="/Titlecv" component={Titlecv} />
+            <Route path="/Location" component={Location} />
+            <Route path="/Phone" component={Phone} />
           </Switch>
         </Router>
       </div>

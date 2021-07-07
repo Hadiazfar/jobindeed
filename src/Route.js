@@ -21,6 +21,9 @@ import Language from "./components/Applicant/CV/Language/Language"
 import Titlecv from "./components/Applicant/CV/Title/Titlecv"
 import Location from "./components/Applicant/CV/Location/Location"
 import Phone from './components/Applicant/CV/Phone/Phone'
+import Preview from './components/Applicant/CV/Previwe/Preview'
+import ProfilePicture from './components/Applicant/CV/ProfilePicture/ProfilePicture'
+import Dashboard from './components/Applicant/Main Dashboard/Dashboard/Dashboard'
 function RouteConfig() {
     return (
       <div>
@@ -47,6 +50,9 @@ function RouteConfig() {
             <Route path="/Titlecv" component={Titlecv} />
             <Route path="/Location" component={Location} />
             <Route path="/Phone" component={Phone} />
+            <Route path="/Preview" component={Preview} />
+            <Route path="/ProfilePicture" component={ProfilePicture} />
+            <Route path="/Dashboard" component={Dashboard} />
           </Switch>
         </Router>
       </div>

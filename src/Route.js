@@ -24,6 +24,8 @@ import Phone from './components/Applicant/CV/Phone/Phone'
 import Preview from './components/Applicant/CV/Previwe/Preview'
 import ProfilePicture from './components/Applicant/CV/ProfilePicture/ProfilePicture'
 import Dashboard from './components/Applicant/Main Dashboard/Dashboard/Dashboard'
+import OrganizationDashboard from './components/organization dashboard/OrganizationDashboard/OrganizationDashboard'
+import View from './components/job post preview/preview/View'
 function RouteConfig() {
     return (
       <div>
@@ -53,6 +55,8 @@ function RouteConfig() {
             <Route path="/Preview" component={Preview} />
             <Route path="/ProfilePicture" component={ProfilePicture} />
             <Route path="/Dashboard" component={Dashboard} />
+            <Route path="/OrganizationDashboard" component={OrganizationDashboard} />
+            <Route path="/View" component={View} />
           </Switch>
         </Router>
       </div>

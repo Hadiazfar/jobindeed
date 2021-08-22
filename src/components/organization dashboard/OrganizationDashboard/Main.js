@@ -42,12 +42,12 @@ function Main() {
         <Grid item xs={12} sm={3}>
           <Paper className={classes.paper} elevation={3}>Web and Mobile application
           <br />
-          <a className={classes.description}>Front End Developer</a>
-      <br />
-          <a className={classes.description}>Posted Date: 20/8/2021</a>
+          <span className={classes.description}>Front End Developer</span>
+   <br />
+          <span className={classes.description}>Posted Date: 20/8/2021</span>
 
           <br />
-          <a className={classes.description}>Add Expired: 20/9/2021</a>
+          <span className={classes.description}>Add Expired: 20/9/2021</span>
           <br />
           <br />
           <Button  className={classes.Button}>
@@ -58,12 +58,12 @@ function Main() {
         <Grid item xs={12} sm={3}>
           <Paper className={classes.paper} elevation={3}>Web and Mobile application
           <br />
-          <a className={classes.description}>Front End Developer</a>
-          <br />
-          <a className={classes.description}>Posted Date: 20/8/2021</a>
+          <span className={classes.description}>Front End Developer</span>
+        <br />
+          <span className={classes.description}>Posted Date: 20/8/2021</span>
           <br />
 
-          <a className={classes.description}>Add Expired: 20/9/2021</a>
+          <span className={classes.description}>Add Expired: 20/9/2021</span>
           <br />
           <br />
           <Button  className={classes.Button}>
@@ -74,12 +74,12 @@ function Main() {
         <Grid item xs={12} sm={3}>
           <Paper className={classes.paper} elevation={3}>Web and Mobile application
           <br />
-          <a className={classes.description}>Front End Developer</a>
-          <br />
-          <a className={classes.description}>Posted Date: 20/8/2021</a>
+          <span className={classes.description}>Front End Developer</span>
+        <br />
+          <span className={classes.description}>Posted Date: 20/8/2021</span>
           <br />
 
-          <a className={classes.description}>Add Expired: 20/9/2021</a>
+          <span className={classes.description}>Add Expired: 20/9/2021</span>
           <br />
           <br />
           <Button  className={classes.Button}>
@@ -90,12 +90,12 @@ function Main() {
         <Grid item xs={12} sm={3}>
           <Paper className={classes.paper} elevation={3}>Web and Mobile application
           <br />
-          <a className={classes.description}>Front End Developer</a>
-          <br />
-          <a className={classes.description}>Posted Date: 20/8/2021</a>
+          <span className={classes.description}>Front End Developer</span>
+       <br />
+          <span className={classes.description}>Posted Date: 20/8/2021</span>
 
           <br />
-          <a className={classes.description}>Add Expired: 20/9/2021</a>
+          <span className={classes.description}>Add Expired: 20/9/2021</span>
           <br />
           <br />
           <Button  className={classes.Button}>

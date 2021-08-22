@@ -5,6 +5,8 @@ import './table.css'
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+    maxWidth:1000,
+    margin:'0 auto',
     '& > *': {
       margin: theme.spacing(1),
       

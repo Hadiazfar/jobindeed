@@ -1,0 +1,12 @@
+.textarea{
+    width: 500px;
+outline: none;
+   border: none;
+   margin: 2 2 ;
+}
+.button{
+    width: 100%;
+    color: #174964;
+   border-radius: 10px;
+   background-color: #174964;
+}
